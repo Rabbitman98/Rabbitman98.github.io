@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+
+    <head>
+    <title>
+ MY FIRST EXAMPLE WEBSITE!
+     </title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     </head>
+<body style="background color: grey; color white">
+	<script>
+	$(document).ready( alert("Welcome to my site!"));
+	</script>
+<h1 id="myid"> Chris' Webpage </h1>
+<hr>
+<h3 id="myid"> small less important text </h3>
+<h1 id="myid"> Extra text that im messing with </h1>
+
+	<p>
+		once upon a time in a land far far away
+	</p>
+<div id="myid">
+	<!-- Something here -->
+	<p class="media" > You dont like our <b>website?</b> We dont care! <a href="http://www.google.com"> google it... </a>
+	</P>
+	<p> Link to facebook :) <a href="http://www.facebook.com/"> link <a/>
+	</P>
+	<p class="media"> Link to our email :) <a href="mailto:lichins06790@gmail.com"> email me! </a>
+	</p>
+	<p> Link to our YouTube :) <a href="www.youtube.com"> here </a>
+	</p>
+
+	<img src="C:\Users\Rabbit\OneDrive\Pictures\ME\472 (575x461).jpg" width="1000" height="1000" />
+	<br/>
+	<img src="http://p1.pichost.me/i/68/1926935.jpg" width="1000" height-"600" />
+
+</div>
+<div>
+	<script> function randomPlay() {
+        var play = Math.random() * 3;
+        if (play < 1) {
+                return "rock";
+        } else if (play < 2) {
+                return "paper";
+        } else {
+                return "scissors";
+        }
+}
+ 
+// rock paper scissors
+function rockPaperScissors() {
+        myPlay = prompt("What do you play? Rock, paper, or scissors?");
+        if (myPlay == "rock" || myPlay == "scissors" || myPlay == "paper") {
+                console.log("You played " + myPlay);
+        } else {
+                console.log("You didn't provide a valid play.")
+        }
+ 
+        compPlay = randomPlay();
+        console.log("Computer played " + compPlay);
+ 
+        if ((myPlay=="rock" && compPlay=="scissors")|| (myPlay=="paper" && compPlay=="rock") || (myPlay=="scissors" && compPlay=="paper")) {
+                console.log("You win.")
+        } else if ((myPlay=="paper" && compPlay=="paper") || (myPlay=="rock" && compPlay=="rock") || (myPlay=="scissors" && compPlay=="scissors") ) {
+                console.log("You and the computer tie.")
+        } else if ((myPlay=="scissors" && compPlay=="rock") || (myPlay=="paper" && compPlay=="scissors") || (myPlay=="rock" && compPlay=="paper")) {
+                console.log("Computer wins.")
+        }
+}
+</script>
+</body>
+
+</html>
