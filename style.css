@@ -15,10 +15,10 @@ body {
        #myid{
        	@font-face {
         color: white;
-        font-family: "opening font";
+        font-family: 'Questrial', sans-serif;
         font-height: 150px;
         font-width: 700px;
-        src: url(https://www.google.com/fonts#UsePlace:use/Collection:Questrial);
+        @import url(https://fonts.googleapis.com/css?family=Questrial);
         
                
        }
