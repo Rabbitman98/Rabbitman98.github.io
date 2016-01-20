@@ -7,26 +7,20 @@ body {
        	display: block;
        	 color: black;
        }
+       p{
+       	color: white; font-size: 25px; font-family:"Lowvetica"; 
        
 
        }
-       #myid {
-        color:white;
-        font-height: 150px;
-        font-width: 700px;        
-               
+       #myid{
+       	color: black;
+               font-family:"lowvetica";
+               font-weight: height: 150px;
+               width: 700px;
        }
        .media {
        	color: blue; 
        }
 
-       
-       }
-       h1, h2, h3, p{
-        text-align: center;
-       }
 
-       @font-face {
-          font-family: "prometheusimport";
-          src:url ("prometheus.ttf");
-       }
+       
