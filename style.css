@@ -1,5 +1,5 @@
 body {
-       	background-image: url(http://static1.squarespace.com/static/56428f79e4b00c09aad36e43/5642931fe4b024d1dbe25f8d/5642931fe4b024d1dbe25f8f/1447203622946/free_web_background_3_by_kgombocka-d4gz4lh.jpg?format=2500w);
+       	background-image: url(https://wallpaperscraft.com/image/house_holland_river_buildings_hdr_10942_3840x2160.jpg);
        	 margin: 5%;
        	 padding: 5%;
        	 	outline: double;
@@ -13,11 +13,21 @@ body {
 
        }
        #myid{
-       	color: black;
-               font-family:"lowvetica";
-               font-weight: height: 150px;
-               width: 700px;
+       	@font-face {
+        color: white;
+        font-family: "opening font";
+        font-height: 150px;
+        font-width: 700px;
+        src: url(https://www.google.com/fonts#UsePlace:use/Collection:Questrial);
+        
+               
        }
        .media {
        	color: blue; 
+       }
+
+       
+       }
+       h1, h2, h3, p{
+        text-align: center;
        }
