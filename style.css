@@ -8,19 +8,17 @@ body {
        	 color: black;
        }
        p{
-       	color: white; font-size: 25px; font-family:"Lowvetica"; 
+       	color: white; font-size: 25px; font-family:"Questrial"; 
        
 
        }
        #myid{
        	color: black;
-               font-family:"lowvetica";
+               font-family:"Questrial";
                font-weight: height: 150px;
                width: 700px;
        }
        .media {
        	color: blue; 
        }
-
-
-       
+     }
